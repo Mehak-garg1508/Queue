@@ -11,10 +11,10 @@ Node(int value){
 }
 };
 
-class Dequeue{
+class Deque{
 Node *front, *rear;
 public:
-Dequeue(){
+Deque(){
   front = rear = NULL;
 }
 
@@ -106,7 +106,7 @@ int end(){
 };
 
 int main(){
-Dequeue dq;
+Deque dq;
 // 6 4 2 4 8
 dq.push_front(2);
 dq.push_front(4);
